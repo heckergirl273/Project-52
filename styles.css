@@ -1,54 +1,58 @@
 .menu{
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    background-color:#000000;
     padding: 15px;
     font-size: 20px;
     font-family: sans-serif;
     font-weight: 400;
-    color: white;
+    color: #ffffff;
 }
 body{
+
     margin: 0px;
-    background-color:#f7f2f2;
-    
-}
-a{
-    text-decoration :none
-}
-a:link{
-    color:#ffffff;
+
+    background: hsla(336, 100%, 78%, 1);
+
+background: linear-gradient(315deg, hsla(336, 100%, 78%, 0.75) 3%, hsla(36, 100%, 57%, 0.75) 24%, hsla(52, 100%, 52%, 0.75) 38%, hsla(57, 100%, 50%, 0.75) 50%, hsla(79, 100%, 49%, 0.75) 64%, hsla(105, 100%, 50%, 0.75) 78%, hsla(117, 88%, 65%, 0.75) 88%, hsla(156, 67%, 70%, 0.75) 95%, hsla(199, 100%, 79%, 0.75) 99%);
+
+background: -moz-linear-gradient(315deg, hsla(336, 100%, 78%, 0.75) 3%, hsla(36, 100%, 57%, 0.75) 24%, hsla(52, 100%, 52%, 0.75) 38%, hsla(57, 100%, 50%, 0.75) 50%, hsla(79, 100%, 49%, 0.75) 64%, hsla(105, 100%, 50%, 0.75) 78%, hsla(117, 88%, 65%, 0.75) 88%, hsla(156, 67%, 70%, 0.75) 95%, hsla(199, 100%, 79%, 0.75) 99%);
+
+background: -webkit-linear-gradient(315deg, hsla(336, 100%, 78%, 0.75) 3%, hsla(36, 100%, 57%, 0.75) 24%, hsla(52, 100%, 52%, 0.75) 38%, hsla(57, 100%, 50%, 0.75) 50%, hsla(79, 100%, 49%, 0.75) 64%, hsla(105, 100%, 50%, 0.75) 78%, hsla(117, 88%, 65%, 0.75) 88%, hsla(156, 67%, 70%, 0.75) 95%, hsla(199, 100%, 79%, 0.75) 99%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ff91bd", endColorstr="#ffa826", GradientType=1 );   
 }
 
-/*a:old*/
-/*a:clicked*/
-/*a:seen{*/
+a{
+    text-decoration: none;
+}
+
 a:visited{
     color: #ffffff;
 }
 
 .bodyimg{
-    position: absolute;
+    position: relative;
 }
-.bodyimg p{
-    color:#f7f2f2;
-    font-size: 55px;
-    font-family: fantasy;
+
+.intro{
+    color: #ffffff;
+    font-family: 'Courgette', cursive;
     position: absolute;
-    top:10%;
-    left:50%;
-    transform: translate(-50%,-50%);
+    top: 25%;
+    left: 3%;
 }
-.bodyimg h3{
-    color:#f7f2f2;
-    font-family: fantasy;
-    font-size: 30px;
-    width: 1600px;
-    position: absolute;
-    top:40%;
-    left:80%;
-    transform: translate(-40%, -40%);
+
+.intro h1{
+    font-size: xx-large;
 }
+
+.intro h3{
+    position: relative;
+    left: 0%;
+    font-size: x-large;
+}
+
 .grid{
     display: flex;
     flex-wrap: wrap;
@@ -57,24 +61,20 @@ a:visited{
     
 }
 .grid img{
-    border: 2px solid black;
+    border: 2px solid #000000;
     border-radius: 50px;
 }
 .origami {
     
     border-radius: 20px;
     background-color: #ffffff;
-    padding: 30px;
-    margin: 25px;
+    /* modify margin and padding here*/
+    padding: 20px;
+    margin: 20px;
     width:310px;
-    font-family: fantasy;
-    
+    font-family:'ABeeZee', sans-serif;;
 }
 
-/* .origami:hover{ */
-/*.origami : mouseover{*/
-/*.origami:link{*/
-origami:hover{
-
-    transform: scale(1.2);
+.origami:hover{
+    transform: scale(1.15);
 }
